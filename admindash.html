@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Flavours | Admin</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="font.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style-extra.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="admindash.html">Flavours</a>
+  <form class="search" action="adminsearch.html"><input type="text" aria-label="Search"><span>🔍</span></form>
+  <a class="avatar" href="profile.html" aria-label="Profile">👤</a>
+</header>
+
+<main>
+  <div class="panels">
+    <section class="panel">
+      <h3>Pending verification</h3>
+      <div class="queue">
+        <article class="queue-item">
+          <h4>Restaurant 1</h4><time>3 days ago</time>
+          <div class="btns"><a class="btn sm" href="adminrest.html">View</a><button class="btn sm">Verify</button><button class="btn sm dim">Reject</button></div>
+        </article>
+        <article class="queue-item">
+          <h4>Restaurant 2</h4><time>3 days ago</time>
+          <div class="btns"><a class="btn sm" href="adminrest.html">View</a><button class="btn sm">Verify</button><button class="btn sm dim">Reject</button></div>
+        </article>
+        <article class="queue-item">
+          <h4>Restaurant 3</h4><time>1 day ago</time>
+          <div class="btns"><a class="btn sm" href="adminrest.html">View</a><button class="btn sm">Verify</button><button class="btn sm dim">Reject</button></div>
+        </article>
+        <article class="queue-item">
+          <h4>Restaurant 4</h4><time>5 mins ago</time>
+          <div class="btns"><a class="btn sm" href="adminrest.html">View</a><button class="btn sm">Verify</button><button class="btn sm dim">Reject</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h3>Pending queries</h3>
+      <div class="queue">
+        <article class="queue-item">
+          <h4>Customer 1</h4><time>3 days ago</time>
+          <p>Content of review</p>
+          <p class="flagged">Flagged by Restaurant 1</p>
+        </article>
+        <article class="queue-item">
+          <h4>Customer 2</h4><time>3 days ago</time>
+          <p>Content of review</p>
+          <p class="flagged">Flagged by Restaurant 2</p>
+        </article>
+        <article class="queue-item">
+          <h4>Customer 1</h4><time>1 day ago</time>
+          <p>Content of review</p>
+          <p class="flagged">Flagged by Restaurant 3</p>
+        </article>
+        <article class="queue-item">
+          <h4>Customer 3</h4><time>5 mins ago</time>
+          <p>Content of review</p>
+          <p class="flagged">Flagged by Restaurant 5</p>
+        </article>
+      </div>
+    </section>
+  </div>
+</main>
+</body>
+</html>
